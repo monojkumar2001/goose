@@ -58,7 +58,6 @@
     background-image: url(../images/body-img.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: var(--black-color);
     font-size: var(--p-font);
     font-weight: 400;
     font-family: var(--body-font) !important;
@@ -91,18 +90,6 @@
     outline: none;
   }
   
-  .container {
-    max-width: 1360px;
-    width: 80%;
-    margin: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  @media only screen and (max-width:992px) {
-    .container {
-      width: 95%;
-    }
-}
   /* ============================GENERAL STYLE END======= */
   
   h1,
@@ -149,6 +136,7 @@
     text-transform: uppercase;
     border: 3px solid #A83FC6;
     cursor: pointer;
+    text-decoration: none;
   }
   .custom-btn:hover{
     color: var(--main-color);

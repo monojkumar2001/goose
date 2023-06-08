@@ -36,24 +36,18 @@ function Header() {
           </div>
           <ul className="menu-nav-ul">
             <li className="nav-list">
-              <HashLink to="/">
-                <a href="/" className="nav-link" onClick={_toggleSidebar}>
+              <HashLink to="/" className="nav-link" onClick={_toggleSidebar}>
                 Audits
-                </a>
               </HashLink>
             </li>
             <li className="nav-list">
-              <HashLink to="/faq">
-                <a href="/faq" className="nav-link" onClick={_toggleSidebar}>
+              <HashLink to="/faq"  className="nav-link" onClick={_toggleSidebar}>
                 live
-                </a>
               </HashLink>
             </li>
             <li className="nav-list">
-              <HashLink to="/mint">
-                <a href="/mint" className="nav-link" onClick={_toggleSidebar}>
+              <HashLink to="/mint"  className="nav-link" onClick={_toggleSidebar}>
                 WhitePaper
-                </a>
               </HashLink>
             </li>
             <li className="nav-list social-media-links">
