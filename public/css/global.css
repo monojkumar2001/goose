@@ -55,8 +55,8 @@
   }
   
   body {
-    background-image: url(../images/body-img.svg);
     background-size: cover;
+    background-position: fixed;
     background-repeat: no-repeat;
     font-size: var(--p-font);
     font-weight: 400;

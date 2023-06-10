@@ -47,7 +47,7 @@ function Header() {
             </li>
             <li className="nav-list">
               <HashLink to="/mint"  className="nav-link" onClick={_toggleSidebar}>
-                WhitePaper
+                White Paper
               </HashLink>
             </li>
             <li className="nav-list social-media-links">

@@ -12,7 +12,7 @@ const InvestCard = ({ img, title1,title2, dis1, dis2, dis3, dis4, dis5 }) => {
           <tbody>
             <tr>
               <td>
-              <input class="form-control"  step="1000" type="number" value="1000"/>
+              <input class="form-control"   type="number" placeholder="1000"/>
               </td>
               <td>
                 <Link href="" className="card-btn-item ">{dis1}</Link>
@@ -20,7 +20,7 @@ const InvestCard = ({ img, title1,title2, dis1, dis2, dis3, dis4, dis5 }) => {
             </tr>
             <tr>            
               <td>
-                 <input class="form-control"  step="1000" type="number" value="1000"/>
+                 <input class="form-control"  type="number"  placeholder="1000"/>
               </td>
               <td>
               <Link href="" className="card-btn-item ">{dis2}</Link>
