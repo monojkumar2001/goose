@@ -7,7 +7,6 @@ import {
   ValueAxis,
 } from '@devexpress/dx-react-chart-material-ui';
 import { Animation } from '@devexpress/dx-react-chart';
-
 const data = [
   { year: 'Week 1', population: 1.525 },
   { year: 'Week 2', population: 2.018 },
@@ -35,14 +34,16 @@ export default class ChartBox extends React.PureComponent {
 
   render() {
     const { data: chartData } = this.state;
-
+    const style = {
+        backgroundColor: 'none',
+      };
     return (
-      <Paper>
+      <Paper style={style}>
         <Chart
           data={chartData}
         >
           <ArgumentAxis />
-          <ValueAxis max={7} />
+          <ValueAxis max={13} />
 
           <BarSeries
             valueField="population"
