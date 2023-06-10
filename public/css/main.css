@@ -154,6 +154,6 @@ color: var(--white-color);
 div#center-axis-container rect{
   fill: var(--main-color);
 }
-.chart-box-wrapper .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-aoeo82 {
+.chart-box-wrapper .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1{
 background-color:none !important
 }
