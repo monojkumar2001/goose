@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import ContractCard from "./contracts/ContractCard";
 import InvestorCard from "./Investor/InvestorCard";
 import InvestCard from "./Invest/InvestCard";
 import WithdrawContentCard from "./withraw/WithdrawContentCard";
 import WithdrawCard from "./withraw/WithdrawCard";
-import ChartBox from "./ChartBox/ChartBox";
+// import ChartBox from "./ChartBox/ChartBox";
+import BarChart from "./barChart/BarChart";
+import { UserData } from "./barChart/Data";
+
+
 function Home() {
+  const [userData, setUserData]=useState({
+    labels: UserData.map((data)=>data.week),
+    datasets:[{
+      label:"Withdraw",
+      data: UserData.map((data)=>data.userPrice),
+      backgroundColor:["#A83FC6"],
+    }]
+  })
   return (
     <React.Fragment>
 <div className="home">
@@ -85,7 +97,8 @@ function Home() {
       <section className="chart-box cpb-6">
         <div className="container">
           <div className="chart-box-wrapper">
-            <ChartBox/>
+            {/* <ChartBox/> */}
+            <BarChart chartData={userData}/>
           </div>
         </div>
       </section>
