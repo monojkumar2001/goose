@@ -92,6 +92,11 @@ display: none;
 }
 .figure-forex-img img{
     width: 60%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.figure-forex-img img:hover{
+    transform: scale(1.05);
 }
 .figure-item-3{
     display: flex;
@@ -100,6 +105,11 @@ display: none;
 }
 .figure-item-3 .trade-img img{
     width: 80%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.figure-item-3 .trade-img img:hover{
+    transform: scale(1.05);
 }
 .figure-trade{
     position: relative;
@@ -130,8 +140,12 @@ display: none;
 }
 .figure-img  img{
     width: 80%;
+    cursor: pointer;
+    transition: 0.4s;
 }
-
+.figure-img  img:hover{
+    transform: scale(1.05);
+}
 @media only screen and (max-width:991px) {
     .Figures{
         padding: 150px 0 100px 0;

@@ -63,7 +63,7 @@ function Home() {
         </div>
       </section>
       {/* =============== Withdraw Initial Capital ================ */}
-      <section className="withraw cpt-6">
+      <section className="withraw">
         <div className="container">
           <div className="withraw-wrapper-con">
             <div className="wihraw-header-content cpb-7">
