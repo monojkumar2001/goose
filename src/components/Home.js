@@ -27,7 +27,7 @@ function Home() {
           <div className="hero-wrapper">
             <h1 className="hero-title">Dashboard</h1>
             <div className="row cpt-7">
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
                 <ContractCard
                   img="/images/contract-img.svg"
                   title="Contract"
@@ -35,8 +35,8 @@ function Home() {
                   dis2="Inestors:"
                   dis3="Total Profit:"
                 />
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              </div> 
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
                 <InvestorCard
                   img="/images/investor-img.svg"
                   title="Investor"
@@ -46,7 +46,7 @@ function Home() {
                   dis4="Available Profits:"
                 />
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
                 <InvestCard
                   img="/images/invest-img.svg"
                   title1="Invest"

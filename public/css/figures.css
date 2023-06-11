@@ -131,3 +131,45 @@ display: none;
 .figure-img  img{
     width: 80%;
 }
+
+@media only screen and (max-width:991px) {
+    .Figures{
+        padding: 150px 0 100px 0;
+    }
+    .figure-title h1{
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 70px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .figure-content-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .figure-dis::after {
+        left: 30%;
+    }
+    .figure-diss::before{
+        left: 30%;
+    }
+}
+@media only screen and (max-width:576px) {
+    .figure-item-3 {
+        flex-direction: column;
+        margin-top: 70px;
+        gap:80px;
+    }
+    .figure-forex-img img {
+        width: 40%;
+    }
+    .figure-trade::after{
+        left: 10%;
+        top: -60px;
+    }
+    .figure-trade::before{
+        left: 10%;
+        top: 30px;
+    }
+}
