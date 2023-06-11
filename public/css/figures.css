@@ -1,0 +1,133 @@
+@import url('./global.css');
+
+.Figures{
+    padding: 250px 0 100px 0;
+}
+.figure-left-con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 130px;
+    justify-content: center;
+}
+.figure-left-items{
+    display: flex;
+    align-items:flex-end;
+    gap: 50px;
+}
+.figure-left-item h4{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 35px;
+}
+.figure-left-item{
+    position: relative;
+}
+.figure-left-item::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    bottom: -150px;
+    height: 120px;
+    left: 40%;
+    background-image: url(../images/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.figure-left-items::after{
+display: none;
+}
+
+.figure-Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.figure-title h1{
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 150px;
+}
+.figure-content-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.figure-content-item .figure-item-2{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+.figure-dis{
+    position: relative;
+}
+.figure-dis::after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    left: 20%;
+    display: inline-block;
+    height: 80px;
+    background-image: url(../images/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+.figure-diss {
+    position: relative;
+}
+.figure-diss::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    left: 20%;
+    top: -70px;
+    display: inline-block;
+    height: 80px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+.figure-forex-img img{
+    width: 60%;
+}
+.figure-item-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figure-item-3 .trade-img img{
+    width: 80%;
+}
+.figure-trade{
+    position: relative;
+}
+.figure-trade::after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    left: -20%;
+    top: -60px;
+    display: inline-block;
+    height: 80px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 170px;
+}
+.figure-trade::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    left: -20%;
+    top: 60px;
+    display: inline-block;
+    height: 80px;
+    background-image: url(../images/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: 170px;
+}
+.figure-img  img{
+    width: 80%;
+}

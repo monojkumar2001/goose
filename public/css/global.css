@@ -63,6 +63,7 @@
     font-family: var(--body-font) !important;
     line-height: var(--p-font-height);
     overflow-x: hidden;
+    color: #ffffff !important;
   }
   
   img {

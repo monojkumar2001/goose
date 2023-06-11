@@ -4,7 +4,7 @@ import InvestorCard from "./Investor/InvestorCard";
 import InvestCard from "./Invest/InvestCard";
 import WithdrawContentCard from "./withraw/WithdrawContentCard";
 import WithdrawCard from "./withraw/WithdrawCard";
-// import ChartBox from "./ChartBox/ChartBox";
+
 import BarChart from "./barChart/BarChart";
 import { UserData } from "./barChart/Data";
 
@@ -97,7 +97,7 @@ function Home() {
       <section className="chart-box cpb-6">
         <div className="container">
           <div className="chart-box-wrapper">
-            {/* <ChartBox/> */}
+
             <BarChart chartData={userData}/>
           </div>
         </div>
@@ -109,29 +109,4 @@ function Home() {
 
 export default Home;
 
-// const InvestData = [
-//   {
-//     id: 1,
-//     img: "/images/contract-img.svg",
-//     title: "Contract",
-//     dis1: "Invested:",
-//     dis2: "Inestors:",
-//     dis3: "Total Profit:",
-//   },
-//   {
-//     id: 1,
-//     img: "/images/contract-img.svg",
-//     title: "Contract",
-//     dis1: "Invested:",
-//     dis2: "Inestors:",
-//     dis3: "Total Profit:",
-//   },
-//   {
-//     id: 1,
-//     img: "/images/contract-img.svg",
-//     title: "Contract",
-//     dis1: "Invested:",
-//     dis2: "Inestors:",
-//     dis3: "Total Profit:",
-//   },
-// ];
+

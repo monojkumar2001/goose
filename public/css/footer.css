@@ -1,7 +1,7 @@
    .footer-wrapper{
     display: flex;
     align-items: center;
-    background-color: #F1E2F6;
+    background: #381941;
     padding: 10px 0;
 border-top: 1px solid var(--black-color);
 justify-content: center;

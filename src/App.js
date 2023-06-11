@@ -2,11 +2,12 @@ import React from "react";
 import Header from './components/Header';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.css';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Figures from "./components/Figures";
 function App() {
   useEffect(() => {
 		AOS.init();
@@ -20,8 +21,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route exact path="/figures">
+            <Figures/>
+          </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
