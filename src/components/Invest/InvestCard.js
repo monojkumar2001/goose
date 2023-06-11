@@ -12,18 +12,18 @@ const InvestCard = ({ img, title1,title2, dis1, dis2, dis3, dis4, dis5 }) => {
           <tbody>
             <tr>
               <td>
-              <input class="form-control"   type="number" placeholder="1000"/>
+              <input className="form-control"   type="number" placeholder="1000"/>
               </td>
               <td>
-                <Link href="" className="card-btn-item ">{dis1}</Link>
+                <Link to="/" className="card-btn-item ">{dis1}</Link>
               </td>
             </tr>
             <tr>            
               <td>
-                 <input class="form-control"  type="number"  placeholder="1000"/>
+                 <input className="form-control"  type="number"  placeholder="1000"/>
               </td>
               <td>
-              <Link href="" className="card-btn-item ">{dis2}</Link>
+              <Link to="/" className="card-btn-item">{dis2}</Link>
               </td>
             </tr>
           </tbody>
@@ -37,8 +37,8 @@ const InvestCard = ({ img, title1,title2, dis1, dis2, dis3, dis4, dis5 }) => {
               <td>{dis3}</td>
               <td>
                <div className="withraw-wrapper">
-               <Link href="" className="card-btn-item">{dis4}</Link>
-               <Link href="" className="card-btn-item">{dis5}</Link>
+               <Link to="/" className="card-btn-item">{dis4}</Link>
+               <Link to="/" className="card-btn-item">{dis5}</Link>
                </div>
               </td>
             </tr>

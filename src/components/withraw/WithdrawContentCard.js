@@ -18,7 +18,7 @@ const WithdrawContentCard = ({img, title, dis1, dis2}) => {
           <tr>
             <td></td>
             <td>
-            <Link href="" className="card-btn-item">{dis2}</Link>
+            <Link to="/" className="card-btn-item">{dis2}</Link>
             </td>
           </tr>
         </tbody>

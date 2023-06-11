@@ -21,10 +21,10 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-social-media">
-            <a href="#" target="_blank"><img src="images/facebook.svg" alt="" /></a>
-            <a href="#" target="_blank"><img src="images/twitter-2.svg" alt="" /></a>
-            <a href="#" target="_blank"><img src="images/google.svg" alt="" /></a>
-            <a href="#" target="_blank"><img src="images/chat.svg" alt="" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/twitter-2.svg" alt="" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/google.svg" alt="" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/chat.svg" alt="" /></a>
           </div>
           <div className="footer-item-dis">
             <p>© Goose Wealth Creation All Rights reserved</p>

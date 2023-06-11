@@ -1,27 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const WithdrawCard = () => {
-  return (
-   <>
-   {
-    withdrawData.map((item, i)=>{
-        return(
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="withdraw-card" key={i}>
-                    <p>{item.title}</p>
-                    <h3>{item.price}</h3>
-                </div>
-            </div>
-        )
-
-    })
-   }
-   </>
-  )
-}
-
-export default WithdrawCard;
-
+    
 const withdrawData=[
     {
         id:1,
@@ -39,3 +19,23 @@ const withdrawData=[
         price:"$5999.20"
     },
 ]
+  return (
+   <>
+   {
+    withdrawData.map((item)=>{
+        return(
+            <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="withdraw-card" key={item.id}>
+                    <p>{item.title}</p>
+                    <h3>{item.price}</h3>
+                </div>
+            </div>
+        )
+
+    })
+   }
+   </>
+  )
+}
+
+export default WithdrawCard;
