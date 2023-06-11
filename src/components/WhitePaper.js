@@ -1,6 +1,6 @@
 import React from "react";
 import FigureLeft from "./figures/FigureLeft";
-const Figures = () => {
+const WhitePaper = () => {
   return (
     <div className="home">
       <section className="Figures">
@@ -50,5 +50,5 @@ const Figures = () => {
   );
 };
 
-export default Figures;
+export default WhitePaper;
 

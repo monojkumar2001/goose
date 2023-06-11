@@ -1,33 +1,38 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React from "react";
+import { HashLink } from "react-router-hash-link";
 
 function Footer() {
-
-    return ( 
-
-        <>
-          <div className="footer">
-            <div className="footer-wrapper">
-
-            <div className="footer-item-1 footer-item">
-                    <p>© 2023 The Peep Club all rights reserved.</p>
-                </div>
-                <div className="footer-item-2 footer-item">
-                <Link to='/terms'>
-                Terms of Use
-                </Link>
-                <a href="/">Privacy Policy</a>
-                </div>
-                </div>                  
+  return (
+    <>
+      <div className="footer">
+        <div className="footer-wrapper">
+          <div className="footer-link">
+            <ul>
+              <li className="nav-list">
+                <HashLink to="/" className="nav-link">
+                Home
+                </HashLink>
+              </li>
+              <li className="nav-list">
+                <HashLink to="/white-paper" className="nav-link">
+                White Paper
+                </HashLink>
+              </li>
+            </ul>
           </div>
-        </>
-
-    )
-
+          <div className="footer-social-media">
+            <a href="#" target="_blank"><img src="images/facebook.svg" alt="" /></a>
+            <a href="#" target="_blank"><img src="images/twitter-2.svg" alt="" /></a>
+            <a href="#" target="_blank"><img src="images/google.svg" alt="" /></a>
+            <a href="#" target="_blank"><img src="images/chat.svg" alt="" /></a>
+          </div>
+          <div className="footer-item-dis">
+            <p>© Goose Wealth Creation All Rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Footer;
-
-
-
- 

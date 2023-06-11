@@ -7,7 +7,8 @@ import { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Figures from "./components/Figures";
+import WhitePaper from './components/WhitePaper'
+
 function App() {
   useEffect(() => {
 		AOS.init();
@@ -21,8 +22,8 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/figures">
-            <Figures/>
+          <Route exact path="/white-paper">
+            <WhitePaper/>
           </Route>
         </Switch>
         <Footer />

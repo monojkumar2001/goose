@@ -37,16 +37,11 @@ function Header() {
             <ul className="menu-nav-ul">
               <li className="nav-list">
                 <HashLink to="/" className="nav-link" onClick={_toggleSidebar}>
-                  Audits
+                 Home
                 </HashLink>
               </li>
               <li className="nav-list">
-                <HashLink to="" className="nav-link" onClick={_toggleSidebar}>
-                  live
-                </HashLink>
-              </li>
-              <li className="nav-list">
-                <HashLink to="" className="nav-link" onClick={_toggleSidebar}>
+                <HashLink to="/white-paper" className="nav-link" onClick={_toggleSidebar}>
                   White Paper
                 </HashLink>
               </li>
