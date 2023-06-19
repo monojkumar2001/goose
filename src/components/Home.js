@@ -31,19 +31,18 @@ function Home() {
                 <ContractCard
                   img="/images/contract-img.svg"
                   title="Contract"
-                  dis1="Invested:"
-                  dis2="Inestors:"
-                  dis3="Total Profit:"
+                  dis1="Total investments:"
+                  dis2="Total profits:"
+                  dis3="Total investors:"
                 />
               </div> 
               <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
                 <InvestorCard
                   img="/images/investor-img.svg"
                   title="Investor"
-                  dis1="Investor Balance:"
-                  dis2="Total Invested:"
-                  dis3="Total Profit:"
-                  dis4="Available Profits:"
+                  dis1="Your investments:"
+                  dis2="Your profits:"
+                  dis3="Your available profits:"
                 />
               </div>
               <div className="col-lg-4 col-md-6 col-sm-12 mb-5">

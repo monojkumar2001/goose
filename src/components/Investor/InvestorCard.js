@@ -12,25 +12,19 @@ const InvestorCard = ({ img, title, dis1, dis2, dis3, dis4 }) => {
           <tr>
             <td>{dis1}</td>
             <td>
-              <span id="total-invested">?</span>
+              <span>?</span>
             </td>
           </tr>
           <tr>
             <td>{dis2}</td>
             <td>
-              <span id="total-investors">?</span>
+              <span >?</span>
             </td>
           </tr>
           <tr>
             <td>{dis3}</td>
             <td>
-              <span id="total-profit">?</span>
-            </td>
-          </tr>
-          <tr>
-            <td>{dis4}</td>
-            <td>
-              <span id="total-profit">?</span>
+              <span>?</span>
             </td>
           </tr>
         </tbody>

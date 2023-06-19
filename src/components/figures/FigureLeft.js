@@ -6,12 +6,12 @@ const FigureLeft = () => {
    <div className="figure-left-con">
     <div className="figure-left-item">
       <h4>Investor</h4>
-      <div className="figure-img">
+      <div className="figure-img" >
         <img src="/images/investor-img-2.svg" alt="" />
       </div>
     </div>
-    <div className="figure-left-item">
-    <div className="figure-img">
+    <div className="figure-left-item figure-left-item2">
+    <div className="figure-img figure-img2">
         <img src="/images/profit.svg" alt="" />
       </div>
       <h4>Profit Generatd with forex trading</h4>

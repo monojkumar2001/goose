@@ -12,7 +12,7 @@ const WhitePaper = () => {
             <div className="col-lg-9 col-md-12">
               <div className="figure-Right">
                 <div className="figure-title">
-                  <h1>GOOSE</h1>
+                  <h1>GOLEN GOOSE</h1>
                 </div>
                 <div className="figure-content-item">
                   <div className="figure-item figure-item-2">
@@ -24,7 +24,7 @@ const WhitePaper = () => {
                     </div>
                   </div>
                   <div className="figure-item">
-                    <p>Forex Traders</p>
+                    <p className="forex-title1">Forex Traders</p>
                     <div className="figure-forex-img">
                       <img src="images/forex.svg" alt="" />
                     </div>
@@ -39,7 +39,7 @@ const WhitePaper = () => {
                   </div>
                 </div>
                 <div className="figure-title">
-                  <h1>FIGURES</h1>
+                  <h1>INVESTMENT</h1>
                 </div>
               </div>
             </div>
