@@ -167,8 +167,8 @@ background-color:none !important
   font-weight: 700;
   color: var(--white-color);
   padding: 20px;
-  border-top: 1px solid #dfdfdf;
-  border-bottom: 1px solid #dfdfdf;
+  border-top: 1px solid #a3a3a3;
+  border-bottom: 1px solid #a3a3a3;
 }
 .referral-link-item {
   margin-top: 100px;
@@ -198,11 +198,26 @@ background-color:none !important
 }
 .referral-history-item .underline{
  margin: 20px 0;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #b9b9b9;
 }
 .referral-history-item span{
   padding-top: 10px;
   color: var(--white-color);
   font-size: 18px;
   font-weight: 600;
+}
+.referral-container-con{
+height: 80vh;
+}
+.referral-get-started-btn{
+  padding-top: 100px;
+  width: 220px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+.referral-get-started-btn a{
+  font-size: 18px;
 }

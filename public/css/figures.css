@@ -205,7 +205,7 @@ display: none;
     .figure-content-item {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 40px;
     }
     .figure-dis::after {
         left: 30%;
@@ -213,16 +213,21 @@ display: none;
     .figure-diss::before{
         left: 30%;
     }
-}
-@media only screen and (max-width:576px) {
     .figure-item-3 {
         flex-direction: column;
         margin-top: 70px;
         gap:80px;
     }
-    .figure-forex-img img {
-        width: 40%;
+    .figure-forex-img {
+        margin: auto;
+        text-align: center;
     }
+    .figure-item .forex-title1 {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width:576px) {
     .figure-trade::after{
         left: 10%;
         top: -60px;

@@ -83,6 +83,7 @@ function Home() {
               title='Withdraw Initial'
               dis1='Available'
               dis2='Request Withdraw'
+              dis3='chancel'
               />
              
             </div>

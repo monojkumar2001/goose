@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-const WithdrawContentCard = ({img, title, dis1, dis2}) => {
+const WithdrawContentCard = ({img, title, dis1, dis2, dis3}) => {
   return (
     <div className='hero-card-item'>
      <div className="card-img">
@@ -18,7 +18,10 @@ const WithdrawContentCard = ({img, title, dis1, dis2}) => {
           <tr>
             <td></td>
             <td>
-            <Link to="/" className="card-btn-item">{dis2}</Link>
+            <div className="withdraw-btn d-flex gap-4">
+            <button className="card-btn-item">{dis2}</button>
+            <button className="card-btn-item">{dis3}</button>
+            </div>
             </td>
           </tr>
         </tbody>

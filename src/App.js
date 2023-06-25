@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import WhitePaper from './components/WhitePaper'
+import ReferralLinks from "./components/ReferralLinks";
 import Referral from "./components/Referral";
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route exact path="/referral">
             <Referral/>
+          </Route>
+          <Route exact path="/referral-link">
+            <ReferralLinks/>
           </Route>
         </Switch>
         <Footer />
