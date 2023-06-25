@@ -6,7 +6,9 @@
 
 }
 @media only screen and (max-width:992px) {
-    
+    .referral-link-item span{
+        overflow: hidden;
+    }
 }
 @media only screen and (max-width:768px) {
    .hero-title{
@@ -49,5 +51,21 @@
     }
     .footer-social-media a img{
         width: 100%;
+    }
+    .referral-link-item {
+        margin-top: 50px;
+        padding: 15px 20px;
+    }
+    .referral-title-name{
+        font-size: 30px;
+    }
+    .referral-history-item h2{
+        font-size: 25px;
+      }
+      .referral-container{
+        padding: 130px 0 30px 0;
+      }
+      .referral-history-item {
+        margin-top: 50px;
     }
 }

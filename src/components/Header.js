@@ -45,6 +45,11 @@ function Header() {
                   White Paper
                 </HashLink>
               </li>
+              <li className="nav-list">
+                <HashLink to="/referral" className="nav-link" onClick={_toggleSidebar}>
+                Referral
+                </HashLink>
+              </li>
               <li className="nav-list social-media-links">
                 <div className="social-link-item">
                   <a href="#" target="_blank">

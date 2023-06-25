@@ -158,3 +158,51 @@ div#center-axis-container rect{
 background-color:none !important
 }
 
+/* =============================== Referral ========================= */
+.referral-container{
+  padding: 200px 0 100px 0;
+}
+.referral-title-name{
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--white-color);
+  padding: 20px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+.referral-link-item {
+  margin-top: 100px;
+  padding: 15px 40px;
+  border-radius: 6px;
+  border: 1px solid #A83FC6;
+}
+.referral-link-item button{
+  border: none;
+  background: none;
+  cursor: pointer; 
+}
+.referral-link-item .copy-text{
+  margin-top: 10px;
+  font-size: 14px;
+}
+.referral-history-item{
+  margin-top: 120px;
+  text-align: left;
+}
+.referral-history-item h2{
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  color: #d4d3d3;
+  text-align: left;
+}
+.referral-history-item .underline{
+ margin: 20px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.referral-history-item span{
+  padding-top: 10px;
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 600;
+}

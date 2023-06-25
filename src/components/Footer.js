@@ -18,6 +18,11 @@ function Footer() {
                 White Paper
                 </HashLink>
               </li>
+              <li className="nav-list">
+                <HashLink to="/referral" className="nav-link">
+                Referral
+                </HashLink>
+              </li>
             </ul>
           </div>
           <div className="footer-social-media">

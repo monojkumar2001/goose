@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import WhitePaper from './components/WhitePaper'
+import Referral from "./components/Referral";
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/white-paper">
             <WhitePaper/>
+          </Route>
+          <Route exact path="/referral">
+            <Referral/>
           </Route>
         </Switch>
         <Footer />
